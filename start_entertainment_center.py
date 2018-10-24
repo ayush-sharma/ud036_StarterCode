@@ -1,6 +1,10 @@
 import movie
 import fresh_tomatoes
 
+
+""" Defining a list of 6 movies from the IMDB box office listings page.
+    Each movie has a title, storyline, poster URL, and YouTube trailer URL. """
+
 movie_1 = movie.MyMovie(
 	"A Star Is Born",
 	"A musician helps a young singer find fame, even as age and alcoholism send his own career into a downward spiral.",
@@ -43,6 +47,8 @@ movie_6 = movie.MyMovie(
 	"https://www.youtube.com/watch?v=d7rlUe-Thvk"
 	)
 
+""" Putting all 6 movies in a list. """
 my_movies = [movie_1, movie_2, movie_3, movie_4, movie_5, movie_6]
 
+""" Calling library function to generate HTML page for our list of movies. """
 fresh_tomatoes.open_movies_page(my_movies)
