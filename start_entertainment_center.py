@@ -47,8 +47,9 @@ movie_6 = movie.MyMovie(
 	"https://www.youtube.com/watch?v=d7rlUe-Thvk"
 	)
 
-""" Putting all 6 movies in a list. """
+# Putting all 6 movies in a list.
 my_movies = [movie_1, movie_2, movie_3, movie_4, movie_5, movie_6]
 
-""" Calling library function to generate HTML page for our list of movies. """
+# Calling library function to generate HTML page for our list of movies.
 fresh_tomatoes.open_movies_page(my_movies)
+
